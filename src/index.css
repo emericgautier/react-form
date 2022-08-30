@@ -1,0 +1,21 @@
+form {
+    display: grid;
+    width: 50%;
+    min-width: 300px; /* pour ne pas qu'il se réduise à l'infini */
+    max-width: 600px; /* pour ne pas qu'il s'agrandisse à l'infini */
+    margin: 0 auto;
+}
+.success, .error {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success {
+    background: green;
+}
+.error {
+    background: red;
+}
